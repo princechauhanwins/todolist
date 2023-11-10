@@ -1,0 +1,39 @@
+.box{
+    width: 100%;
+    max-width: 540px;
+    margin: 10px auto 10px;
+    padding: 10px 10px;
+    border: solid red;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    border: solid black 3px;
+}
+.input-style{
+    flex: 1;
+    height: 20px;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.button{
+    padding: 15px 50px ;
+    background-color: blueviolet;
+    font-size: 15px;
+}
+ul li{
+    list-style: none;
+    padding: 10px 10px;
+    user-select: none;
+    position: relative;
+}
+ul li button{
+    background-color: red;
+    margin-left: 350px;
+}
+
