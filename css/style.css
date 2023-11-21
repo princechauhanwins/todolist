@@ -3,15 +3,17 @@
     max-width: 540px;
     margin: 10px auto 10px;
     padding: 10px 10px;
-    border: solid red;
     border-radius: 20px;
+    background-color: lightblue;
 }
 .row{
     display: flex;
     align-items: center;
     padding-left: 20px;
     margin-bottom: 25px;
-    border: solid black 3px;
+    border: solid black 1px;
+    border-radius: 35px;
+
 }
 .input-style{
     flex: 1;
@@ -25,15 +27,22 @@
     padding: 15px 50px ;
     background-color: blueviolet;
     font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
 }
 ul li{
     list-style: none;
     padding: 10px 10px;
-    user-select: none;
     position: relative;
 }
 ul li button{
     background-color: red;
-    margin-left: 350px;
+    float: right;
+    cursor: pointer;
 }
-
+span{
+    background-color: whitesmoke;
+    float: left;
+    cursor: pointer;
+}
